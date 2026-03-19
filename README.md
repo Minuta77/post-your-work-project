@@ -1,27 +1,34 @@
 >**Note**: Please **fork** this Udacity repository so you have a **remote** repository in **your** GitHub account. Then you can clone the remote repository to your local machine. Later, as a part of the project, you will push your changes to the remote repository in your GitHub account.
 
+# Bikeshare Project
 
-# Project Title
+This project explores data from bikeshare systems in several major U.S. cities.  
+The goal is to use Python to perform data analysis and extract meaningful statistics from shared bicycle usage data.
 
-Describe what your project is about and what it does
 
-## Information about how to use your project
+## 📄 Project Overview
 
-This could include:
+The project includes:
+- a single Python script (`bikeshare-starter.py`) that handles user interaction, data loading, and calculations
+- one or more `.csv` files containing anonymized bikeshare trip data
 
-- Step-by-step instructions for installing or setting up your project.
-- Any software dependencies that need to be installed.
-- Instructions and examples for how to use your project, including any helpful code snippets.
-- Common issues and troubleshooting tips
+The program guides the user through selecting:
+- a city to analyze
+- an optional month filter
+- an optional day-of-week filter
 
-## Contribution guidelines
 
-If you welcome contributions, provide guidelines on how others can contribute to your project.
+## What the Program Does
+- Loads bikeshare data for a selected city  
+- Allows filtering by month and day  
+- Calculates statistics such as:
+  - Most common travel times  
+  - Popular stations and routes  
+  - Total and average trip duration  
+  - User demographics (when available)
 
-## Credits
+## How to Run
+Run the script in your terminal:
 
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
-## Date created
-
-Include the date you created this project and README file.
+```bash
+python bikeshare-starter.py
