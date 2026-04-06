@@ -32,3 +32,9 @@ Run the script in your terminal:
 
 ```bash
 python bikeshare-starter.py
+
+
+
+## Known Issues
+Currently, the bikeshare data files contain a few inconsistencies in timestamps.  
+These do not break the program but may slightly affect time‑based statistics.
