@@ -34,6 +34,9 @@ Run the script in your terminal:
 python bikeshare-starter.py
 
 
+## Installation
+Python 3.8+ is required to run this project.
+
 
 ## Known Issues
 Currently, the bikeshare data files contain a few inconsistencies in timestamps.  
