@@ -118,7 +118,7 @@ def load_data(city: str, month: str, day: str) -> pd.DataFrame:
     return df
 
 
-def _timed_print(label: str, fn, *args, **kwargs):
+def _print_time(label: str, fn, *args, **kwargs):
     """
     Small helper to measure runtime of a statistics function.
     (This is a refactoring trick to avoid duplicating timing code.)
